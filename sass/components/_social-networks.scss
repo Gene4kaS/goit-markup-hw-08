@@ -1,8 +1,9 @@
  
 .social-networks {
-    margin-left: 32px;
-    margin-right: 32px;
-    justify-content: space-between;
+    // margin-left: 32px;
+    // margin-right: 32px;
+
+    justify-content: center;
     display: flex;
 
     &__icon {
@@ -34,5 +35,6 @@
 .social-networks-footer {
     display: flex;
     align-items: flex-start;
-    margin: 20px 0px 0px 0px;
+
+    // margin: 20px 0px 0px 0px;
 }

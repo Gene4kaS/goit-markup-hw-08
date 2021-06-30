@@ -3,7 +3,7 @@
 }
 
 .team-list {
-    display: flex;
+    // display: flex;
 
     &__card {
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -11,15 +11,17 @@
     }
 }
 
-.team-list .team-list__card + .team-list__card {
-        margin-left: 30px;
-    }
+// .team-list .team-list__card + .team-list__card {
+//         margin-left: 30px;
+//     }
 
 
 .name {
     text-align: center;
     background-color: $white-color;
-    padding: 30px 0px 30px 0px;
+
+    // padding: 30px 0px 30px 0px;
+
     font-size: 16px;
     line-height: 1.19;
 
@@ -29,7 +31,7 @@
         font-weight: 500;    
     }
 
-    &__position {
-        margin-bottom: 16px;
-    }
+    // &__position {
+    //     margin-bottom: 16px;
+    // }
 }

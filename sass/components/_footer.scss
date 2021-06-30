@@ -1,17 +1,19 @@
 .footer {
     background-color: $dark-color;
-    padding-top: 60px;
-    padding-bottom: 60px;
+
+    // padding-top: 60px;
+    // padding-bottom: 60px;
 }
 
-.container-footer {
-    display: flex;
-    justify-content: space-between;
-}
+// .container-footer {
+//     display: flex;
+//     justify-content: space-between;
+// }
 
 .address__local {
     color: $white-color;
     font-style: normal;
+
     margin-top: 0;
     margin-bottom: 9px;
 }
@@ -31,8 +33,8 @@
     }
 }
 .footer-block {
-    margin-top: 12px;
-    width: 206px;
+    // margin-top: 12px;
+    // width: 206px;
 
     &__join {
         color: $white-color;
@@ -40,7 +42,7 @@
     }
 }
 .footer-mailing {
-    margin-top: 12px;
+    // margin-top: 12px;
 
     &__join__join {
     width: 570px;
@@ -51,7 +53,7 @@
 }
 
 .mailing-block {
-    display: flex;
+    // display: flex;
     margin-top: 20px;
 
     &__input {
