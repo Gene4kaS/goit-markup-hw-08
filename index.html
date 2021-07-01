@@ -21,10 +21,9 @@
                             <button type="button" class="menu-button js-open-menu" 
                             aria-expanded="false"
                             aria-controls="mobile-menu">
-                                <svg height="40" width="40"
+                                <svg class="mobile-button" height="40" width="40"
                                 aria-label="Переключатель мобильного меню">
                                     <use class="icon-menu" href="./images/icons.svg#icon-menu"></use>
-                                    <use class="icon-cross" href="./images/icons.svg#icon-cross"></use>
                                 </svg>
                             </button>
                         </div>
@@ -47,7 +46,14 @@
                                             <use href="./images/icons.svg#icon-smartphone"></use>
                                         </svg>+38 096 111 11 11</a></li>
                         </ul> -->
-                        <div class="menu-container js-menu-container" id="mobile-menu"></div>
+                        <div class="menu-container js-menu-container" id="mobile-menu">
+                            <button type="button" class="menu-button js-close-menu">
+                                <svg class="mobile-button" height="40" width="40"
+                                aria-label="Переключатель мобильного меню">
+                                    <use class="icon-cross" href="./images/icons.svg#icon-cross"></use>
+                                </svg>
+                            </button>
+                        </div>
                 </div>
             </header>
         </div>

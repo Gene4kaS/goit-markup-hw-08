@@ -5,25 +5,30 @@
 }
 
 .menu-button {
-    display: inline-flex;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  
     margin: 0;
     padding: 0;
-    border: none;
     background-color: transparent;
-}
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+  }
+  
+  @media (min-width: 479px) {
+    .menu-button {
+      display: none;
+    }
 
-.menu-button .icon-cross {
-    display: none;
-}
+  }
 
-.menu-button.is-open .icon-cross {
-    display: block;
-}
-
-.menu-button.is-open .icon-menu {
-    display: none;
-}
-
+  .menu-button:hover,
+  .menu-button:focus {
+      fill: $accent-color;
+    }
 .menu-container {
     position: fixed;
     top: 0;
@@ -33,9 +38,10 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    padding: 10px 15px;
     z-index: 3;
     transform: translateX(100%);
-    background-color: green;
+    background-color: $white-color;
     
         &.is-open {
         transform: translateX(0);
