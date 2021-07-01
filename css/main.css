@@ -372,7 +372,7 @@ img {
   display: flex;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
-  width: 210px;
+  max-width: 210px;
   height: 92px;
   justify-content: center;
   align-items: center;
