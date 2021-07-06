@@ -155,14 +155,13 @@ img {
   position: fixed;
   top: 0;
   left: 0;
-  max-width: 767px;
   min-width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 48px 40px;
-  z-index: 999;
+  z-index: 10;
   transform: translateX(100%);
   font-weight: 500;
   letter-spacing: 0.02em;
