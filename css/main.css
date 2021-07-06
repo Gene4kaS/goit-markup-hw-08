@@ -161,6 +161,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 40px;
   z-index: 3;
   transform: translateX(100%);
   font-weight: 500;
