@@ -162,7 +162,7 @@ img {
   flex-direction: column;
   justify-content: space-between;
   padding: 48px 40px;
-  z-index: 3;
+  z-index: 999;
   transform: translateX(100%);
   font-weight: 500;
   letter-spacing: 0.02em;
