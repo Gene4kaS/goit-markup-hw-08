@@ -59,12 +59,15 @@
 }
 
 .mobile-menu {
-    margin-bottom: 32px;
     
     font-size: 40px;
     line-height: 1.175;
 
     color: $title-text-color;
+
+    &:not(:last-child) {
+        margin-bottom: 32px;
+    }
 }
 
 .mobile-social {

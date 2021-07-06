@@ -189,10 +189,12 @@ img {
 }
 
 .mobile-menu {
-  margin-bottom: 32px;
   font-size: 40px;
   line-height: 1.175;
   color: #212121;
+}
+.mobile-menu:not(:last-child) {
+  margin-bottom: 32px;
 }
 
 .mobile-social {
