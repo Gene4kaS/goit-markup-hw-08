@@ -45,6 +45,8 @@ p, h1, h2, h3 {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .container {
@@ -201,6 +203,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: start;
+  flex-wrap: wrap;
   font-size: 18px;
   line-height: 1.22;
   color: #2196F3;

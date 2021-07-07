@@ -35,7 +35,7 @@
     padding: 48px 40px;
     z-index: 3;
     transform: translateX(100%);
-    font-weight: 480;
+    font-weight: 480;   
     letter-spacing: 0.02em;
     background-color: $white-color;
     
@@ -74,6 +74,7 @@
     display: flex;
     align-items: center;
     justify-content: start;
+    flex-wrap: wrap;
     font-size: 18px;
     line-height: 1.22;
 
