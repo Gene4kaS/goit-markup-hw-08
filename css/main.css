@@ -684,7 +684,6 @@ img {
 }
 .mailing-block__input {
   margin-right: 12px;
-  width: 358px;
   height: 50px;
   padding-left: 16px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -711,6 +710,7 @@ img {
 
 .footer-subscribe {
   position: relative;
+  display: flex;
 }
 
 .btn-cards {
