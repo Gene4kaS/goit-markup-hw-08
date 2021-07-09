@@ -209,6 +209,7 @@
 }
 
 .current::after {
+    @media screen and (min-width: 768px) {
     display: block;
     content: "";
     position: absolute;
@@ -218,4 +219,5 @@
     border-radius: 2px;
     bottom: -10; 
     margin-top: 28px;
+    }
 }

@@ -2,6 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     margin-right: -30px;
+    justify-content: center;
 
     &__link {
         display: flex;
@@ -33,6 +34,7 @@
         }
         @media screen and (min-width: 1200px) {
             flex-basis: calc((100% - 240px) / 6);
+            margin-bottom: 0;
         }
     }   
 
