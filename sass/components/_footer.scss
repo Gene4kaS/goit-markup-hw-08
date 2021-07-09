@@ -1,14 +1,38 @@
 .footer {
     background-color: $dark-color;
-
-    // padding-top: 60px;
-    // padding-bottom: 60px;
+    
+    @media screen and (min-width: 1200px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
 }
 
-// .container-footer {
-//     display: flex;
-//     justify-content: space-between;
-// }
+.container-footer {
+    text-align: center;
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: baseline;
+   }
+  
+   @media screen and (min-width: 1200px) {
+    text-align: unset;
+}
+    
+}
+
+.footer-contacts {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    text-align: center;
+
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 0;
+    }
+}
 
 .address__local {
     color: $white-color;
@@ -33,48 +57,71 @@
     }
 }
 .footer-block {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
     // margin-top: 12px;
-    // width: 206px;
+    width: 206px;
+
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 0;
+    }
 
     &__join {
         color: $white-color;
         text-transform: uppercase;
+        text-align: center;
+        justify-content: center;
     }
 }
 .footer-mailing {
+    margin-left: auto;
+    margin-right: auto;
     // margin-top: 12px;
+    @media screen and (min-width: 1200px) {
+       max-width: 570px;
+       margin-left: 0;
+       margin-right: 0;
+    }
 
-    &__join__join {
-    width: 570px;
+    &__join {
     justify-content: flex-end;
-    margin-top: 12px;
-    margin-left: 93px;
+    // margin-top: 12px;
+    // margin-left: 93px;
+    text-align: center;
     }
 }
 
 .mailing-block {
-    // display: flex;
     margin-top: 20px;
+
+    @media screen and (min-width: 1200px) {
+        display: flex;
+    }
 
     &__input {
         margin-right: 12px;
-        // width: 358px;
+        width: 100%;
         height: 50px;
         padding-left: 16px;
+        margin-bottom: 20px;
     
         border: 1px solid rgba(255, 255, 255, 0.3);
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
         border-radius: 4px;
         background-color: transparent;
         color: rgba(255, 255, 255, 0.6);
+
+        @media screen and (min-width: 1200px) {
+            margin-bottom: 0;
+            width: 358px;
+        }
+
     }
     &__label ::placeholder {
+        
         font-size: 16px;
         line-height: 1.25;
         color: rgba(255, 255, 255, 0.6);
     }
-}
-.footer-subscribe {
-    position: relative;
-    display: flex;
 }

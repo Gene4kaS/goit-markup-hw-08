@@ -26,17 +26,18 @@
 }
 
 .btn-subscribe {
-    padding-left: 29px;
-    padding-right: 62px;
+    margin-left: auto;
+    margin-right: auto;
     width: 200px;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     &__icon {
-        position: absolute;
-        top: 50%;
-        left: 75%;
-        transform: translateY(-50%);
-    
         fill: $white-color;
+        margin-left: 10px;  
     }
 }
 
