@@ -164,7 +164,7 @@ img {
   left: 0;
   max-width: 767px;
   min-width: 100vw;
-  height: 90vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -209,7 +209,7 @@ img {
   align-items: center;
   justify-content: start;
   flex-wrap: wrap;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 1.22;
   color: #2196F3;
 }
