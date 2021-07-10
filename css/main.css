@@ -477,7 +477,7 @@ img {
 .doing {
   padding-top: 0;
 }
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
   .doing {
     display: none;
   }
@@ -1077,6 +1077,18 @@ img {
   display: flex;
   align-items: center;
 }
+@media screen and (max-width: 1999px) {
+  .form-contacts {
+    font-size: 12px;
+    line-height: 1, 167;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .form-contacts {
+    font-size: 14px;
+    line-height: 1.71;
+  }
+}
 .form-contacts__contract {
   color: #2196F3;
   text-decoration: underline;
@@ -1119,14 +1131,26 @@ img {
 }
 
 .modal-content {
+  background-color: #FFFFFF;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  min-width: 528px;
-  min-height: 581px;
-  background-color: #FFFFFF;
+}
+@media screen and (max-width: 1199px) {
+  .modal-content {
+    max-width: 450px;
+    width: 90vw;
+    max-height: 609px;
+    height: 90vh;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .modal-content {
+    min-width: 528px;
+    min-height: 581px;
+  }
 }
 
 .is-hidden {
@@ -1138,4 +1162,8 @@ img {
 
 .modal.is-hidden .modal-content {
   transform: translate(-50%, -50%) scale(0.8);
+}
+
+.button-send {
+  margin-top: 30px;
 }/*# sourceMappingURL=main.css.map */
